@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sohail's Profile</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Sohail Shaik - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Project</a>
-        <a href="#education">Education</a>
-        <a href="#certificate">Certificate</a>
-        <a href="#contact">Contact</a>
+        <div class="nav-container">
+            <a href="#about" class="logo">Sohail Shaik</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#certificate">Certificates</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </nav>
 
     <section id="about">
         <div class="about-container">
             <div class="left">
                 <h1>Sohail Shaik</h1>
-                <h4>Developer...</h4>
-                <div class="r">
-                    <a href="#">Download Resume</a>
-                </div>
-                <div class="contact">
-                    <a href="#">Contact Me</a>
+                <h4>Full Stack Developer | DevOps Engineer</h4>
+                <p class="bio">Passionate developer with expertise in web technologies, cloud computing, and DevOps practices. Committed to creating efficient and innovative solutions.</p>
+                <div class="cta-buttons">
+                    <a href="./assets/Sohail Shaik.pdf" class="btn btn-primary" download>Download Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
                 </div>
             </div>
     
@@ -36,10 +39,9 @@
             </div>
         </div>
     </section>
-    
 
     <section id="skills">
-        <h1>My Skills</h1>
+        <h1>Professional Skills</h1>
         <div class="skill">
             <a href="#" class="list">HTML</a>
             <a href="#" class="list">CSS</a>
@@ -54,13 +56,13 @@
             <a href="#" class="list">Jenkins</a>
             <a href="#" class="list">Git</a>
             <a href="#" class="list">GitHub</a>
-            <a href="#" class="list">Teraform</a>
+            <a href="#" class="list">Terraform</a>
             <a href="#" class="list">Ansible</a>
         </div>
     </section>
 
     <section id="projects">
-        <h1>Project</h1>
+        <h1>Professional Projects</h1>
         <div class="project">
             <h2>SHL: A Secure Homomorphic Light Weight Cryptographic Algorithm</h2>
             <p><strong>Technologies Used: </strong> Python, Docker, Kubernetes</p>
@@ -75,6 +77,19 @@
             <p><strong>Technologies Used: </strong> Nodejs, Docker, Kubernetes</p>
             <p><strong>Status: </strong>Completed in 2024</p>
             <p><strong>Description: </strong>URL Shortner is a platform that is used to shorten the url.<a href="https://github.com/sksohail19/URL-Shortener.git" target="_blank">Read More...</a></p>
+        </div>
+
+        <div class="project">
+            <h2>DevOps File Generator</h2>
+            <p><strong>Technologies Used: </strong> HTML, CSS, JavaScript</p>
+            <p><strong>Status: </strong>Completed in 2025</p>
+            <p><strong>Description: </strong>Developed an interactive web tool for generating infrastructure configuration files. Achievements include:</p>
+            <ul class="project-achievements">
+                <li>Increased deployment efficiency by 40%</li>
+                <li>Created a dynamic form-based interface for script generation</li>
+            </ul>
+            <p><a href="https://github.com/sksohail19/DevOps-File-Generator.git" target="_blank" class="project-link">Read More...</a></p>
+            <p><a href="https://sksohail19.github.io/DevOps_Files_Generator/" target="_blank" class="project-link">View Project</a></p>
         </div>
     </section>
 
@@ -101,84 +116,83 @@
     </section>
 
     <section id="certificate">
-        <h1>Certificate</h1>
-        <div class="certificate-container">
-            <div class="left">
-                <h2>ServiceNow</h2>
-                <p><strong>Issued By: </strong> ServiceNow</p>
-                <p><strong>Issued Date: </strong> 2025</p>
-                <p><strong>Skills gained: </strong> Overview of AES and Now IDE</p>
-                <p><a href="./assets/Micro-Certification - Flow Designer.pdf">Click Here...</a></p>
+        <h1>Certificates</h1>
+        <div class="certificates-list">
+            <div class="certificate-container">
+                <div class="left">
+                    <h2>ServiceNow</h2>
+                    <p><strong>Issued By: </strong> ServiceNow</p>
+                    <p><strong>Issued Date: </strong> 2025</p>
+                    <p><strong>Skills gained: </strong> Overview of AES and Now IDE</p>
+                    <p><a href="./assets/Micro-Certification - Flow Designer.pdf" target="_blank">View Certificate</a></p>
+                </div>
+                <div class="right">
+                    <img src="./assets/ServiceNow.png" alt="ServiceNow Certification Badge">
+                </div>
             </div>
-            
-            <div class="right">
-                <img src="./assets/ServiceNow.png" alt="ServiceNow">
+    
+            <div class="certificate-container">
+                <div class="left">
+                    <h2>DevOps</h2>
+                    <p><strong>Issued By: </strong> Udemy</p>
+                    <p><strong>Issued Date: </strong> 2025</p>
+                    <p><strong>Skills gained: </strong> Jenkins, Docker, Kubernetes, Terraform, Ansible</p>
+                    <p><a href="./assets/Sohail_DevOps_Cert.pdf" target="_blank">View Certificate</a></p>
+                </div>
+                <div class="right">
+                    <img src="./assets/DevOps.png" alt="DevOps Certification Badge">
+                </div>
             </div>
-        </div>
-
-        <div class="certificate-container">
-            <div class="left">
-                <h2>DevOps</h2>
-                <p><strong>Issued By: </strong> Udemy</p>
-                <p><strong>Issued Date: </strong> 2025</p>
-                <p><strong>Skills gained: </strong> Implementation of Jenkins, Docker, Kubernetes, Teraform, Ansible</p>
-                <p><a href="./assets/Sohail_DevOps_Cert.pdf">Click Here...</a></p>
+    
+            <div class="certificate-container">
+                <div class="left">
+                    <h2>AWS</h2>
+                    <p><strong>Issued By: </strong> AWS SkillBuilder</p>
+                    <p><strong>Issued Date: </strong> 2024</p>
+                    <p><strong>Skills gained: </strong> S3, EC2, IAM, RDS, DynamoDB</p>
+                    <p><a href="./assets/134_3_4650568_1721568103_AWS Course Completion Certificate.pdf" target="_blank">View Certificate</a></p>
+                </div>
+                <div class="right">
+                    <img src="./assets/AWS.png" alt="AWS Certification Badge">
+                </div>
             </div>
-            
-            <div class="right">
-                <img src="./assets/DevOps.png" alt="DevOps">
-            </div>
-        </div>
-
-        <div class="certificate-container">
-            <div class="left">
-                <h2>AWS</h2>
-                <p><strong>Issued By: </strong> AWS SkillBuilder</p>
-                <p><strong>Issued Date: </strong> 2024</p>
-                <p><strong>Skills gained: </strong> S3, EC2, IAM, RDB, DynamoDB, etc.,</p>
-                <p><a href="./assets/134_3_4650568_1721568103_AWS Course Completion Certificate.pdf">Click Here...</a></p>
-            </div>
-            
-            <div class="right">
-                <img src="./assets/AWS.png" alt="AWS">
-            </div>
-        </div>
-
-        <div class="certificate-container">
-            <div class="left">
-                <h2>MongoDB</h2>
-                <p><strong>Issued By: </strong> GeeksForGeeks</p>
-                <p><strong>Issued Date: </strong> 2024</p>
-                <p><strong>Skills gained: </strong> MongoDB </p>
-                <p><a href="./assets/MongoDB Certificate by GFG.pdf">Click Here...</a></p>
-            </div>
-            
-            <div class="right">
-                <img src="./assets/MongoDB.png" alt="mongodb">
+    
+            <div class="certificate-container">
+                <div class="left">
+                    <h2>MongoDB</h2>
+                    <p><strong>Issued By: </strong> GeeksForGeeks</p>
+                    <p><strong>Issued Date: </strong> 2024</p>
+                    <p><strong>Skills gained: </strong> MongoDB</p>
+                    <p><a href="./assets/MongoDB Certificate by GFG.pdf" target="_blank">View Certificate</a></p>
+                </div>
+                <div class="right">
+                    <img src="./assets/MongoDB.png" alt="MongoDB Certification Badge">
+                </div>
             </div>
         </div>
     </section>
+    
 
     <section id="contact">
-        <h1>Contact</h1>
+        <h1>Contact Me</h1>
         <div class="media-links">
             <a href="https://www.linkedin.com/in/sohail-shaik-05a053235/" class="media-link">
-                <i class='bx bxl-linkedin' ></i>
+                <i class='bx bxl-linkedin'></i>
             </a>
             <a href="https://github.com/sksohail19" class="media-link">
-                <i class='bx bxl-github ' ></i>
+                <i class='bx bxl-github'></i>
             </a>
             <a href="mailto:shaiksohail0726@gmail.com" class="media-link">
-                <i class='bx bx-envelope' ></i>
+                <i class='bx bx-envelope'></i>
             </a>
         </div>
         <div class="resume-container">
-            <a href="./assests/Sohail_Shaik_9392764775.pdf" class="resume" download">Resume</a>
+            <a href="./assets/Sohail Shaik.pdf" class="resume" download>Download Resume</a>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Sohail's Profile</p>
+        <p>&copy; 2025 Sohail Shaik | Developer Portfolio</p>
     </footer>
 </body>
 </html>
